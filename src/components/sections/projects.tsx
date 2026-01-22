@@ -44,7 +44,7 @@ export function Projects() {
             Work That Matters
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-400 mb-8 leading-relaxed">
-            From data dashboards to mobile apps—here's where code meets impact, and ideas turn into solutions.
+            From data dashboards to mobile apps, ere's where code meets impact, and ideas turn into solutions.
 
           </p>
 

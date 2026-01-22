@@ -63,7 +63,7 @@ export function Certificates() {
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4">Proof of Growth</h2>
           <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
-            Milestones that mark my journey in mastering technology, data, and AI—one certification at a time.
+            Milestones that mark my journey in mastering technology, data, and AI, one certification at a time.
           </p>
         </motion.div>
 
