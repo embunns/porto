@@ -68,6 +68,22 @@ export async function GET() {
         url: 'https://app.powerbi.com/view?r=eyJrIjoiOGJkOWVjNmItYmQ3Yy00ZTczLTg2ZjUtZDBhNTdkYWU4NzI5IiwidCI6IjkwYWZmZTBmLWMyYTMtNDEwOC1iYjk4LTZjZWI0ZTk0ZWYxNSIsImMiOjEwfQ%3D%3D'
       },
       {
+        title: 'Video Game Sales Dashboard',
+        description: 'Interactive analytics dashboard tracking 16.27K video game products across 576 publishers and 31 platforms. Features sales trends analysis across North America, Europe, and Japan, genre performance metrics, and temporal sales patterns',
+        image: '/images/projects/salesdashboard.png',
+        technologies: 'Power BI',
+        category: 'Data Analytics',
+        url: 'https://app.powerbi.com/groups/me/reports/0f96ee0d-0826-4a66-8221-688e763edd80/73526c1cc58657ab7ac7?experience=power-bi'
+      },
+      {
+        title: 'Whispers of the Future: Pacific Populations Unveiled',
+        description: 'Data-driven narrative exploring demographic transformations across the Pacific region. An immersive scrolling story that weaves together population trends, gender dynamics, and aging demographics with compelling visualizations and in-depth analysis from 1950-2050',
+        image: '/images/projects/pacificpopulation.png',
+        technologies: 'Tableau',
+        category: 'Data Storytelling',
+        url: 'https://public.tableau.com/app/profile/embun.nawang.sari/viz/tubesvisdat_17483991715230/Dashboard1?publish=yes'
+      },
+      {
         title: 'EatWise (Multi-platform)',
         description: 'Budget-friendly meal planning app with recipe search, AI chatbot assistant, and personalized recommendations',
         image: '/images/projects/eatwise.png',
