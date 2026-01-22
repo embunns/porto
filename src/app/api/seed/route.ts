@@ -80,7 +80,7 @@ export async function GET() {
         description: 'Data-driven narrative exploring demographic transformations across the Pacific region. An immersive scrolling story that weaves together population trends, gender dynamics, and aging demographics with compelling visualizations and in-depth analysis from 1950-2050',
         image: '/images/projects/pacificpopulation.png',
         technologies: 'Tableau',
-        category: 'Data Storytelling',
+        category: 'Data Analytics',
         url: 'https://public.tableau.com/app/profile/embun.nawang.sari/viz/tubesvisdat_17483991715230/Dashboard1?publish=yes'
       },
       {
