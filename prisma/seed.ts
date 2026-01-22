@@ -16,7 +16,6 @@ const skillLogos: Record<string, string> = {
   'PostgreSQL': '/logos/postgresql.png',
   'Power BI': '/logos/powerbi.png',
   'Tableau': '/logos/tableau.png',
-  'Machine Learning': '/logos/ml.png',
   'Flutter': '/logos/flutter.png',
   'Git': '/logos/git.png',          
 }
@@ -98,12 +97,6 @@ async function main() {
         description: 'Designing compelling data visualizations and analytical dashboards for data-driven storytelling', 
         icon: skillLogos['Tableau'], 
         category: 'Data Visualization' 
-      },
-      { 
-        name: 'Machine Learning', 
-        description: 'Implementing supervised and unsupervised learning algorithms for classification and prediction tasks', 
-        icon: skillLogos['Machine Learning'], 
-        category: 'AI/ML' 
       },
       { 
         name: 'Flutter', 
