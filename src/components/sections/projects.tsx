@@ -41,10 +41,11 @@ export function Projects() {
           className="mb-12"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">
-            Projects I’ve Built
+            Work That Matters
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-400 mb-8 leading-relaxed">
-            A collection of works showcasing how software engineering, data analysis, and AI come together to create functional and meaningful solutions.
+            From data dashboards to mobile apps—here's where code meets impact, and ideas turn into solutions.
+
           </p>
 
           {/* Filter Buttons */}

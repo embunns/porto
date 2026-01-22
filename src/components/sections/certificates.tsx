@@ -61,9 +61,9 @@ export function Certificates() {
           viewport={{ once: true }}
           className="mb-12"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">Certificates</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">Proof of Growth</h2>
           <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
-            Proof of my commitment to learning and developing skills in technology, data, and AI.
+            Milestones that mark my journey in mastering technology, data, and AI—one certification at a time.
           </p>
         </motion.div>
 

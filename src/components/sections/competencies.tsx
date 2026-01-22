@@ -38,7 +38,7 @@ export function Competencies() {
 
   return (
     <section id="competencies" className="py-20 px-8 relative overflow-hidden">
-      {/* Rounded Black Background */}
+
       <div className="absolute inset-0 bg-black dark:bg-gray-950 rounded-[80px] mx-8"></div>
 
       <div className="max-w-7xl mx-auto relative z-10">
@@ -49,10 +49,10 @@ export function Competencies() {
           className="mb-12"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Competencies
+            Skills & Stack
           </h2>
           <p className="text-lg text-gray-600 dark:text-white-400 leading-relaxed">
-            Key technical skills and competencies developed through projects, coursework, and hands-on experience.
+            Skills forged through hands-on development, data exploration, and building solutions that make a difference.
           </p>
         </motion.div>
 
@@ -67,12 +67,12 @@ export function Competencies() {
               whileHover={{ scale: 1.05, y: -5 }}
               className="bg-white dark:bg-gray-900 p-6 rounded-xl border-2 border-gray-200 dark:border-gray-800 hover:border-yellow-500 transition-all cursor-pointer"
             >
-              <div className="relative w-16 h-16 mb-4">
-                <Image
+              
+              <div className="h-16 mb-4 flex items-center">
+                <img
                   src={skillLogos[skill.name] || "/logos/default.png"}
                   alt={skill.name}
-                  fill
-                  className="object-contain"
+                  className="max-h-full max-w-full object-contain"
                 />
               </div>
               <h3 className="text-xl font-bold mb-2 text-black dark:text-white">

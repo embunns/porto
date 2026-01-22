@@ -82,13 +82,19 @@ export function Hero() {
           </div>
 
           <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 leading-relaxed">
-            I'm student of{" "}
+            I'm studying{" "}
             <span className="text-yellow-500 font-semibold">
-              Telkom University
+              Informatics
             </span>{" "}
-            majoring in Informatics. Experienced in social and many
-            Committee/Organization. I'm Adaptable, Problem Solver, Creative,
-            Critical Thinker and Dreamer.
+             and I'm all about building things that work and matter. Whether it's {" "}
+             <span className="text-yellow-500 font-semibold">
+              crunching data
+            </span>{" "}
+             into actionable insights or {" "}
+             <span className="text-yellow-500 font-semibold">
+              developing full-stack applications
+            </span>{" "}
+             , I love the challenge of solving real problems with code. Beyond the tech stack, I'm active in campus leadership and always looking for the next project to dive into.
           </p>
         </motion.div>
       </div>
