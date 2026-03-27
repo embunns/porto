@@ -131,7 +131,7 @@ export async function GET() {
         category: 'Software Engineering',
         url: 'https://github.com/embunns/porto'
       },
-            {
+      {
         title: 'Smart Meeting Transcriber',
         description: 'End-to-end pipeline that converts meeting audio into structured output using OpenAI Whisper for speech recognition, with automatic summary and action item extraction from transcript text',
         image: '/images/projects/smart-meeting-transcriber.png',
