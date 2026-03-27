@@ -201,7 +201,7 @@ async function main() {
         description: 'End-to-end pipeline that converts meeting audio into structured output using OpenAI Whisper for speech recognition, with automatic summary and action item extraction from transcript text',
         image: '/images/projects/smart-meeting-transcriber.png',
         technologies: 'Python, OpenAI Whisper, Hugging Face Transformers, Streamlit, PyTorch',
-        category: 'AI Engineering',
+        category: 'AI/ML',
         url: 'https://github.com/embunns/Smart-Meeting-Transcriber'
       },
       {
