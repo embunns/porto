@@ -131,6 +131,14 @@ export async function GET() {
         category: 'Software Engineering',
         url: 'https://github.com/embunns/porto'
       },
+            {
+        title: 'Smart Meeting Transcriber',
+        description: 'End-to-end pipeline that converts meeting audio into structured output using OpenAI Whisper for speech recognition, with automatic summary and action item extraction from transcript text',
+        image: '/images/projects/smart-meeting-transcriber.png',
+        technologies: 'Python, OpenAI Whisper, Hugging Face Transformers, Streamlit, PyTorch',
+        category: 'AI/ML',
+        url: 'https://github.com/embunns/Smart-Meeting-Transcriber'
+      },
       {
         title: 'Scopus-indexed Paper',
         description: 'Published research paper at COMNETSAT 2025 on toddler classification in Pemalang Regency using Logistic Regression and Decision Tree algorithms',
@@ -139,6 +147,7 @@ export async function GET() {
         category: 'AI/ML',
         url: 'https://ieeexplore.ieee.org/document/11324760/'
       }
+      
     ]
 
     for (const project of projects) {
