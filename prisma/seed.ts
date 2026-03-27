@@ -197,6 +197,14 @@ async function main() {
         url: 'https://github.com/Yasminahanjani/Omnimap'
       },
       {
+        title: 'Smart Meeting Transcriber',
+        description: 'End-to-end pipeline that converts meeting audio into structured output using OpenAI Whisper for speech recognition, with automatic summary and action item extraction from transcript text',
+        image: '/images/projects/smart-meeting-transcriber.png',
+        technologies: 'Python, OpenAI Whisper, Hugging Face Transformers, Streamlit, PyTorch',
+        category: 'AI Engineering',
+        url: 'https://github.com/embunns/Smart-Meeting-Transcriber'
+      },
+      {
         title: 'Portfolio Website',
         description: 'Personal portfolio showcasing my interests, technical skills, and development projects',
         image: '/images/projects/porto.png',
@@ -218,7 +226,6 @@ async function main() {
     await prisma.project.create({ data: project })
   }
 
-  // Seed Certificates
   // Seed Certificates
 const certificates = [
   {
